@@ -11,11 +11,13 @@
 </p>
 
 ## Description
-Intent based AI Minimalist Programming class, that allows you to create complete web applications using only a few lines of code.<br/>
+Intent based AI Minimalist Programming class, that allows you to create complete web applications using only a few lines of code. 
 On build it also generates a <a href="https://www.npmjs.com/package/@concepto/cli">Concepto DSL</a> diagram of the application, that is bidirectional compatible with the code.
 
 # API Reference
-ERROR, Cannot find module.
+A minimalist class framework for building Websites, Apps and complete solutions with the help of AI
+
+
 * * *
 
 &copy; 2020-2023 Pablo Schaffner &lt;pablo@puntorigen.com&gt;.
