@@ -1,0 +1,49 @@
+{
+  "name": "@concepto/ai",
+  "version": "0.0.1",
+  "description": "Concepto AI - intent based AI minimalist programming class",
+  "keywords": [
+    "creador",
+    "puntorigen",
+    "concepto",
+    "ai",
+    "nodejs",
+    "framework"
+  ],
+  "license": "MIT",
+  "author": "Pablo Schaffner",
+  "homepage": "http://github.com/puntorigen4u/ai.git",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/puntorigen4u/ai.git"
+  },
+  "bugs": {
+    "mail": "pablo@puntorigen.com",
+    "url": "http://github.com/puntorigen4u/ai/issues"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "bin": {
+    "concepto_ai": "bin/cli"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development rollup -c && tsc",
+    "build": "cross-env NODE_ENV=production rollup -c && npm run docs && tsc",
+    "docs": "jsdoc2md -t README.hbs src/*.js > README.md"
+  },
+  "dependencies": {
+    "@concepto/console": "*",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "esbuild": "^0.17.19",
+    "jsdoc-to-markdown": "^7.0.1",
+    "rollup": "^3.23.0",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-esbuild": "^5.0.0"
+  },
+  "scarfSettings": {
+    "enabled": false
+  }
+}

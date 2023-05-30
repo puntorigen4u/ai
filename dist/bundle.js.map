@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","sources":["../src/Website/index.js"],"sourcesContent":["export class Website {\n    config = {};\n\n    constructor(config) {\n        this.config = config;\n    }\n}\n"],"names":[],"mappings":";;AAAO,MAAM,OAAQ,CAAA;AAAA,EACjB,SAAS,EAAC,CAAA;AAAA,EAEV,YAAY,MAAQ,EAAA;AAChB,IAAA,IAAA,CAAK,MAAS,GAAA,MAAA,CAAA;AAAA,GAClB;AACJ;;;;"}
